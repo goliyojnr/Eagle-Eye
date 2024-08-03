@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Shield Background -->
+    <path
+        android:fillColor="#1E88E5"
+        android:pathData="M100,10 L170,40 L170,110 C170,150 130,180 100,190 C70,180 30,150 30,110 L30,40 Z"/>
+
+    <!-- Water Droplet -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,70 C110,70 120,90 100,110 C80,90 90,70 100,70 Z"/>
+
+    <!-- Pulse Line -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:fillColor="@android:color/transparent"
+    android:pathData="M50,140 L70,120 L90,160 L110,100 L130,140 L150,120"/>
+
+    <!-- Text -->
+    <!-- Note: Android Vector Drawables don't support text rendering directly, so this part is omitted -->
+</vector>

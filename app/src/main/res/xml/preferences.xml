@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- User Settings Section -->
+    <PreferenceCategory
+        android:title="User Settings"
+        android:summary="Configure your user profile and preferences"
+        >
+
+        <EditTextPreference
+            android:key="username"
+            android:title="Username"
+            android:summary="Enter your username for identification"
+            android:inputType="text" />
+
+        <EditTextPreference
+            android:key="location"
+            android:title="Location"
+            android:summary="Enter your location to provide localized data"
+            android:inputType="text" />
+    </PreferenceCategory>
+
+    <!-- Notifications Section -->
+    <PreferenceCategory
+        android:title="Notifications"
+        android:summary="Manage your notification preferences">
+
+<!--        <SwitchPreferenceCompat-->
+<!--            android:key="notifications"-->
+<!--            android:title="Enable Notifications"-->
+<!--            android:summary="Receive notifications for cholera updates"-->
+<!--            android:defaultValue="true" />-->
+
+        <Preference
+            android:key="notification_sound"
+            android:title="Notification Sound"
+            android:summary="Choose the sound for notifications" />
+    </PreferenceCategory>
+
+    <!-- Data Settings Section -->
+    <PreferenceCategory
+        android:title="Data Settings"
+        android:summary="Configure data update and sync preferences">
+
+        <ListPreference
+            android:key="update_frequency"
+            android:title="Update Frequency"
+            android:summary="Select how often to update data"
+            android:entries="@array/update_frequency_options"
+            android:entryValues="@array/update_frequency_values"
+            android:defaultValue="1" />
+
+<!--        <SwitchPreferenceCompat-->
+<!--            android:key="data_sync"-->
+<!--            android:title="Enable Data Sync"-->
+<!--            android:summary="Automatically sync data with the server"-->
+<!--            android:defaultValue="true" />-->
+
+        <ListPreference
+            android:key="data_source"
+            android:title="Preferred Data Source"
+            android:summary="Select the source for data updates"
+            android:entries="@array/data_source_options"
+            android:entryValues="@array/data_source_values"
+            android:defaultValue="1" />
+    </PreferenceCategory>
+
+    <!-- Appearance Section -->
+    <PreferenceCategory
+        android:title="Appearance"
+        android:summary="Customize the app's look and feel">
+
+        <ListPreference
+            android:key="theme"
+            android:title="Theme"
+            android:summary="Choose the app's theme"
+            android:entries="@array/theme_options"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="light" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

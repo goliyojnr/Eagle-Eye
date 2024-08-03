@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">eagleeye</string>
+    <string name="close">Close</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="server_client_id">213381474648-g6s4loht5k7bgeg4p774l8ejiit7kbc6.apps.googleusercontent.com</string>
+
+</resources>

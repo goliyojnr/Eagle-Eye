@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="risk_levels">
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>High</item>
+        <item>Severe</item>
+    </string-array>
+
+    <string-array name="priority_levels">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Critical</item>
+    </string-array>
+
+    <string-array name="locations_malawi">
+        <item>Blantyre</item>
+        <item>Lilongwe</item>
+        <item>Mzuzu</item>
+        <item>Zomba</item>
+        <item>Balaka</item>
+        <item>Chikwawa</item>
+        <item>Chiradzulu</item>
+        <item>Chitipa</item>
+        <item>Dedza</item>
+        <item>Dowa</item>
+        <item>Karonga</item>
+        <item>Kasungu</item>
+        <item>Likoma</item>
+        <item>Lilongwe Rural</item>
+        <item>Lilongwe Urban</item>
+        <item>Machinga</item>
+        <item>Mangochi</item>
+        <item>Mchinji</item>
+        <item>Mulanje</item>
+        <item>Mwanza</item>
+        <item>Mzimba</item>
+        <item>Nkhata Bay</item>
+        <item>Nkhotakota</item>
+        <item>Nsanje</item>
+        <item>Ntcheu</item>
+        <item>Ntchisi</item>
+        <item>Phalombe</item>
+        <item>Rumphi</item>
+        <item>Salima</item>
+        <item>Thyolo</item>
+        <item>Chiladzulu</item>
+        <item>Neno</item>
+        <item>Nsanje</item>
+        <item>Kasungu</item>
+        <item>Mangochi</item>
+        <item>Nkhotakota</item>
+        <item>Salima</item>
+        <item>Balaka</item>
+        <item>Karonga</item>
+        <item>Chikwawa</item>
+        <item>Mulanje</item>
+        <item>Nsanje</item>
+        <item>Dedza</item>
+        <item>Ntcheu</item>
+        <item>Mchinji</item>
+        <item>Dowa</item>
+        <item>Thyolo</item>
+        <item>Chiradzulu</item>
+        <item>Nkhata Bay</item>
+        <item>Likoma</item>
+        <item>Mwanza</item>
+        <item>Neno</item>
+        <item>Phalombe</item>
+    </string-array>
+
+    <string-array name="email_addresses">
+        <item>harrygoliyo@gmail.com</item>
+        <item>user2@example.com</item>
+        <item>user3@example.com</item>
+    </string-array>
+
+
+    <string-array name="update_frequency_options">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+    <string-array name="update_frequency_values">
+        <item>1</item>
+        <item>7</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="data_source_options">
+        <item>Official Health Department</item>
+        <item>WHO</item>
+        <item>CDC</item>
+    </string-array>
+
+    <string-array name="data_source_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="theme_options">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>System Default</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>light</item>
+        <item>dark</item>
+        <item>system</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"/>
+
+
+        <style name="HintTextAppearance">
+            <item name="android:textColor">@color/hint_text_color</item>
+        </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AlertFragmentStyle">
+        <item name="android:padding">16dp</item>
+        <item name="android:background">#F5F5F5</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:backgroundTint">@color/button_color</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="ChartTextStyle">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+</resources>
